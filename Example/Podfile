@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MOSheetTransition_Example' do
+  pod 'MOSheetTransition', :path => '../'
+
+  target 'MOSheetTransition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
