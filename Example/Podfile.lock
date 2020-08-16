@@ -1,0 +1,16 @@
+PODS:
+  - MOSheetTransition (0.1.0)
+
+DEPENDENCIES:
+  - MOSheetTransition (from `../`)
+
+EXTERNAL SOURCES:
+  MOSheetTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MOSheetTransition: fe5b3e26e9bdf18f8a08a79f8ba033d4c6bad04e
+
+PODFILE CHECKSUM: 526750929bf3910de162edd58631701e41fad6b3
+
+COCOAPODS: 1.9.1

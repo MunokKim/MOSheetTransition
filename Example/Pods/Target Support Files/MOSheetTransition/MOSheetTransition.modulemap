@@ -1,0 +1,6 @@
+framework module MOSheetTransition {
+  umbrella header "MOSheetTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

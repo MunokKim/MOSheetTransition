@@ -1,0 +1,22 @@
+{
+  "name": "MOSheetTransition",
+  "version": "0.1.0",
+  "summary": "A short description of MOSheetTransition.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MunokKim/MOSheetTransition",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MunokKim": "wer0222@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/MunokKim/MOSheetTransition.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MOSheetTransition/Classes/**/*"
+}

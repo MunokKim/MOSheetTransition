@@ -1,0 +1,6 @@
+framework module Pods_MOSheetTransition_Tests {
+  umbrella header "Pods-MOSheetTransition_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

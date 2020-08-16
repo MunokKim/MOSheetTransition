@@ -1,30 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EkP-mi-eaz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="xNq-dp-t4E">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="MOSheetTransition_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="EkP-mi-eaz" customClass="ViewController" customModule="MOSheetTransitionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ae8-Os-bk5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y9Q-UF-p5B">
+                                <rect key="frame" x="0.0" y="39" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d42-BX-EN1">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1684"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UxK-Yk-foP">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1684"/>
+                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor metus ut turpis lacinia ullamcorper. Mauris eu scelerisque ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus lacinia, eros sit amet pretium luctus, dui ante pretium tellus, et tempor urna erat id ipsum. Phasellus pellentesque sapien sed fermentum finibus. Sed magna lorem, cursus vitae imperdiet at, euismod a sapien. Integer dictum sodales nisl, eu commodo felis rhoncus vel. Vestibulum vestibulum tellus id magna viverra efficitur. Nullam sodales nulla eros, ut interdum risus dignissim at. Mauris eu mauris tincidunt, tincidunt velit id, viverra lorem. Aliquam in nunc sit amet enim sodales consectetur nec non enim. Morbi pulvinar sollicitudin laoreet. Nulla mollis suscipit tortor quis sagittis. Suspendisse vulputate elit at felis vestibulum commodo. Vivamus sed augue nulla. Maecenas augue mauris, varius et rhoncus vel, pulvinar nec tortor.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi et lorem quis urna hendrerit commodo in molestie dolor. Integer bibendum, turpis ac vulputate consequat, velit orci dapibus erat, nec tempor elit lorem eget lorem. Aenean in tristique elit. Vestibulum semper sapien at scelerisque fermentum. Praesent imperdiet finibus mi et bibendum. Ut gravida eget libero in porta. Maecenas quis magna eu nunc vehicula efficitur pretium a elit. Vestibulum dictum accumsan nulla a varius. Ut vitae finibus tortor. Praesent dictum nunc vel neque ullamcorper sodales. Nam commodo faucibus elit. Pellentesque vitae ante tristique, sollicitudin quam in, mollis risus. Morbi at lobortis velit, ut scelerisque tortor. Phasellus iaculis vehicula arcu sed euismod. Aliquam commodo nunc et egestas imperdiet.
+
+Donec id dictum dui. Mauris tincidunt aliquam ante, eget mollis massa laoreet ut. Curabitur feugiat, felis id lobortis sollicitudin, ligula felis vehicula odio, non auctor leo tellus nec nisi. Phasellus sapien est, vulputate a elit in, pulvinar sagittis tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget odio tincidunt, venenatis erat a, consectetur est. Sed non urna a dui tincidunt vehicula. Mauris varius eget mauris eu viverra. Morbi arcu metus, consequat sit amet accumsan eget, vulputate tincidunt lacus. Morbi maximus dapibus dolor. Vestibulum eget gravida enim. Sed posuere, justo et cursus tincidunt, ipsum ligula efficitur turpis, nec suscipit arcu ante quis eros.
+
+Vivamus rhoncus fringilla nulla, eu molestie ex sodales vitae. Donec sagittis tempor elit vel vestibulum. Duis nibh enim, porta ut dui ut, ornare mattis elit. Cras ut orci semper, hendrerit tellus in, sagittis sapien. Vestibulum et velit vel nisi consectetur dictum non et enim. Phasellus varius nulla eget interdum tempus. Morbi ullamcorper sit amet orci in bibendum. Maecenas quis felis lacus. Praesent accumsan eget tortor id malesuada. Maecenas vel nibh aliquet, malesuada nunc vel, egestas massa. Aenean ut odio eget justo eleifend convallis. Suspendisse vel consectetur eros, sit amet condimentum felis. Duis tincidunt ex magna, sed condimentum nunc euismod nec. Nunc varius viverra auctor.
+
+Nunc tincidunt odio quis ante finibus, a suscipit nulla condimentum. Pellentesque in quam a nibh laoreet volutpat in quis turpis. Vestibulum eu leo et magna commodo blandit et at lectus. Ut ut lectus feugiat, elementum felis eu, consectetur ipsum. Cras tristique mollis diam, a eleifend diam eleifend at. Nunc iaculis vulputate massa, nec pretium arcu. Sed accumsan semper nunc dapibus fringilla. Praesent sed dignissim magna. Etiam vel enim mattis, suscipit nibh vitae, sagittis nibh. Proin id magna sit amet dolor mattis faucibus vel eget nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="UxK-Yk-foP" secondAttribute="bottom" id="0Rc-p8-nZh"/>
+                                            <constraint firstAttribute="trailing" secondItem="UxK-Yk-foP" secondAttribute="trailing" id="IOP-9V-ToX"/>
+                                            <constraint firstItem="UxK-Yk-foP" firstAttribute="top" secondItem="d42-BX-EN1" secondAttribute="top" id="iIU-is-A7l"/>
+                                            <constraint firstItem="UxK-Yk-foP" firstAttribute="leading" secondItem="d42-BX-EN1" secondAttribute="leading" id="vrF-l7-b7g"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="d42-BX-EN1" firstAttribute="trailing" secondItem="LVq-W2-3pM" secondAttribute="trailing" id="3kC-XZ-xet"/>
+                                    <constraint firstItem="d42-BX-EN1" firstAttribute="leading" secondItem="LVq-W2-3pM" secondAttribute="leading" id="KNo-Sw-txd"/>
+                                    <constraint firstItem="d42-BX-EN1" firstAttribute="top" secondItem="LVq-W2-3pM" secondAttribute="top" id="d5J-FI-SCj"/>
+                                    <constraint firstItem="d42-BX-EN1" firstAttribute="bottom" secondItem="LVq-W2-3pM" secondAttribute="bottom" id="hqc-O0-mf7"/>
+                                    <constraint firstItem="d42-BX-EN1" firstAttribute="width" secondItem="ZfN-dQ-sW8" secondAttribute="width" id="r3k-hF-Ojl"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="LVq-W2-3pM"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="ZfN-dQ-sW8"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQt-YJ-kxi">
+                                <rect key="frame" x="86" y="424.5" width="242" height="57"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title=" Present Button"/>
+                                <connections>
+                                    <action selector="presentButtonTapped:" destination="EkP-mi-eaz" eventType="touchUpInside" id="uNO-L0-NDf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2rA-23-Xfq" firstAttribute="trailing" secondItem="y9Q-UF-p5B" secondAttribute="trailing" id="2Im-91-Fgz"/>
+                            <constraint firstItem="2rA-23-Xfq" firstAttribute="bottom" secondItem="y9Q-UF-p5B" secondAttribute="bottom" constant="5" id="5uF-Rz-wzP"/>
+                            <constraint firstItem="TQt-YJ-kxi" firstAttribute="centerX" secondItem="2rA-23-Xfq" secondAttribute="centerX" id="8ti-DY-U97"/>
+                            <constraint firstItem="TQt-YJ-kxi" firstAttribute="centerY" secondItem="2rA-23-Xfq" secondAttribute="centerY" id="ZrL-za-2GL"/>
+                            <constraint firstItem="2rA-23-Xfq" firstAttribute="top" secondItem="y9Q-UF-p5B" secondAttribute="top" constant="5" id="bTL-kX-Hp4"/>
+                            <constraint firstItem="y9Q-UF-p5B" firstAttribute="leading" secondItem="2rA-23-Xfq" secondAttribute="leading" id="c8a-LL-l46"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2rA-23-Xfq"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CPn-8O-u1E" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="Jwb-mN-dHn">
+            <objects>
+                <viewController storyboardIdentifier="ViewController2" id="i0H-o3-3ta" customClass="ViewController2" customModule="MOSheetTransitionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="687-r6-sWk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ph-OV-3n2">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3t7-pH-Gnf">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1684"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfV-Ua-6a8">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1684"/>
+                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor metus ut turpis lacinia ullamcorper. Mauris eu scelerisque ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus lacinia, eros sit amet pretium luctus, dui ante pretium tellus, et tempor urna erat id ipsum. Phasellus pellentesque sapien sed fermentum finibus. Sed magna lorem, cursus vitae imperdiet at, euismod a sapien. Integer dictum sodales nisl, eu commodo felis rhoncus vel. Vestibulum vestibulum tellus id magna viverra efficitur. Nullam sodales nulla eros, ut interdum risus dignissim at. Mauris eu mauris tincidunt, tincidunt velit id, viverra lorem. Aliquam in nunc sit amet enim sodales consectetur nec non enim. Morbi pulvinar sollicitudin laoreet. Nulla mollis suscipit tortor quis sagittis. Suspendisse vulputate elit at felis vestibulum commodo. Vivamus sed augue nulla. Maecenas augue mauris, varius et rhoncus vel, pulvinar nec tortor.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi et lorem quis urna hendrerit commodo in molestie dolor. Integer bibendum, turpis ac vulputate consequat, velit orci dapibus erat, nec tempor elit lorem eget lorem. Aenean in tristique elit. Vestibulum semper sapien at scelerisque fermentum. Praesent imperdiet finibus mi et bibendum. Ut gravida eget libero in porta. Maecenas quis magna eu nunc vehicula efficitur pretium a elit. Vestibulum dictum accumsan nulla a varius. Ut vitae finibus tortor. Praesent dictum nunc vel neque ullamcorper sodales. Nam commodo faucibus elit. Pellentesque vitae ante tristique, sollicitudin quam in, mollis risus. Morbi at lobortis velit, ut scelerisque tortor. Phasellus iaculis vehicula arcu sed euismod. Aliquam commodo nunc et egestas imperdiet.
+
+Donec id dictum dui. Mauris tincidunt aliquam ante, eget mollis massa laoreet ut. Curabitur feugiat, felis id lobortis sollicitudin, ligula felis vehicula odio, non auctor leo tellus nec nisi. Phasellus sapien est, vulputate a elit in, pulvinar sagittis tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget odio tincidunt, venenatis erat a, consectetur est. Sed non urna a dui tincidunt vehicula. Mauris varius eget mauris eu viverra. Morbi arcu metus, consequat sit amet accumsan eget, vulputate tincidunt lacus. Morbi maximus dapibus dolor. Vestibulum eget gravida enim. Sed posuere, justo et cursus tincidunt, ipsum ligula efficitur turpis, nec suscipit arcu ante quis eros.
+
+Vivamus rhoncus fringilla nulla, eu molestie ex sodales vitae. Donec sagittis tempor elit vel vestibulum. Duis nibh enim, porta ut dui ut, ornare mattis elit. Cras ut orci semper, hendrerit tellus in, sagittis sapien. Vestibulum et velit vel nisi consectetur dictum non et enim. Phasellus varius nulla eget interdum tempus. Morbi ullamcorper sit amet orci in bibendum. Maecenas quis felis lacus. Praesent accumsan eget tortor id malesuada. Maecenas vel nibh aliquet, malesuada nunc vel, egestas massa. Aenean ut odio eget justo eleifend convallis. Suspendisse vel consectetur eros, sit amet condimentum felis. Duis tincidunt ex magna, sed condimentum nunc euismod nec. Nunc varius viverra auctor.
+
+Nunc tincidunt odio quis ante finibus, a suscipit nulla condimentum. Pellentesque in quam a nibh laoreet volutpat in quis turpis. Vestibulum eu leo et magna commodo blandit et at lectus. Ut ut lectus feugiat, elementum felis eu, consectetur ipsum. Cras tristique mollis diam, a eleifend diam eleifend at. Nunc iaculis vulputate massa, nec pretium arcu. Sed accumsan semper nunc dapibus fringilla. Praesent sed dignissim magna. Etiam vel enim mattis, suscipit nibh vitae, sagittis nibh. Proin id magna sit amet dolor mattis faucibus vel eget nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="mfV-Ua-6a8" secondAttribute="bottom" id="Gg3-m5-a15"/>
+                                            <constraint firstItem="mfV-Ua-6a8" firstAttribute="top" secondItem="3t7-pH-Gnf" secondAttribute="top" id="Qg3-mp-itr"/>
+                                            <constraint firstAttribute="trailing" secondItem="mfV-Ua-6a8" secondAttribute="trailing" id="oIX-Ub-aNd"/>
+                                            <constraint firstItem="mfV-Ua-6a8" firstAttribute="leading" secondItem="3t7-pH-Gnf" secondAttribute="leading" id="rc9-PJ-vLO"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="3t7-pH-Gnf" firstAttribute="bottom" secondItem="uuB-ty-Ue4" secondAttribute="bottom" id="Bvj-u3-4oR"/>
+                                    <constraint firstItem="3t7-pH-Gnf" firstAttribute="trailing" secondItem="uuB-ty-Ue4" secondAttribute="trailing" id="EUg-SM-Djh"/>
+                                    <constraint firstItem="3t7-pH-Gnf" firstAttribute="top" secondItem="uuB-ty-Ue4" secondAttribute="top" id="KPn-MO-etO"/>
+                                    <constraint firstItem="3t7-pH-Gnf" firstAttribute="leading" secondItem="uuB-ty-Ue4" secondAttribute="leading" id="ME9-TP-P0U"/>
+                                    <constraint firstItem="3t7-pH-Gnf" firstAttribute="width" secondItem="Zx1-jb-tfD" secondAttribute="width" id="si2-wi-UyR"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="uuB-ty-Ue4"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Zx1-jb-tfD"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AU-ax-lue">
+                                <rect key="frame" x="84" y="424.5" width="246" height="57"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title=" Dismiss Button">
+                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissButtonTapped:" destination="i0H-o3-3ta" eventType="touchUpInside" id="TgM-8Q-vnd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0AU-ax-lue" firstAttribute="centerY" secondItem="Ily-Sp-lRq" secondAttribute="centerY" id="GZM-6e-6oh"/>
+                            <constraint firstItem="Ily-Sp-lRq" firstAttribute="trailing" secondItem="5ph-OV-3n2" secondAttribute="trailing" id="KhR-mo-vfc"/>
+                            <constraint firstItem="5ph-OV-3n2" firstAttribute="leading" secondItem="Ily-Sp-lRq" secondAttribute="leading" id="Q6F-fl-2Mn"/>
+                            <constraint firstItem="0AU-ax-lue" firstAttribute="centerX" secondItem="Ily-Sp-lRq" secondAttribute="centerX" id="cqa-Rb-dV2"/>
+                            <constraint firstItem="5ph-OV-3n2" firstAttribute="top" secondItem="Ily-Sp-lRq" secondAttribute="top" id="cuX-6n-OEW"/>
+                            <constraint firstItem="Ily-Sp-lRq" firstAttribute="bottom" secondItem="5ph-OV-3n2" secondAttribute="bottom" id="wq7-PL-uq3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ily-Sp-lRq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Qd-Rb-G5u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="138"/>
         </scene>
     </scenes>
 </document>

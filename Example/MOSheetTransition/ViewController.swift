@@ -9,6 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func presentButtonTapped(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        vc.modalPresentationStyle = .custom
+        vc.transitioningDelegate = vc.transitionController
+        
+        present(vc, animated: true, completion: nil)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
