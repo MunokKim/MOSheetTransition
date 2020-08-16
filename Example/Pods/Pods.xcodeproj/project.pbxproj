@@ -10,13 +10,24 @@
 		1CD4A5CAD1D871A18B261F8EE6622D41 /* Pods-MOSheetTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D2B31D51D87AD93D2752C0EFC6C65C /* Pods-MOSheetTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D865AE7B8749BA82D28D878B0B65880 /* MOSheetTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B878F253EB1699664B2A132B2155DC /* MOSheetTransition-dummy.m */; };
 		57EEF9264A86CCF48D4E5C2764688C65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6BB9C84024E9972C00406376 /* SheetInteractionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83C24E9972B00406376 /* SheetInteractionCoordinator.swift */; };
+		6BB9C84124E9972C00406376 /* SheetInteractionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83C24E9972B00406376 /* SheetInteractionCoordinator.swift */; };
+		6BB9C84224E9972C00406376 /* SheetInteractionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83C24E9972B00406376 /* SheetInteractionCoordinator.swift */; };
+		6BB9C84324E9972C00406376 /* SheetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83D24E9972B00406376 /* SheetAnimator.swift */; };
+		6BB9C84424E9972C00406376 /* SheetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83D24E9972B00406376 /* SheetAnimator.swift */; };
+		6BB9C84524E9972C00406376 /* SheetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83D24E9972B00406376 /* SheetAnimator.swift */; };
+		6BB9C84624E9972C00406376 /* UIViewPropertyAnimatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83E24E9972B00406376 /* UIViewPropertyAnimatorExtension.swift */; };
+		6BB9C84724E9972C00406376 /* UIViewPropertyAnimatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83E24E9972B00406376 /* UIViewPropertyAnimatorExtension.swift */; };
+		6BB9C84824E9972C00406376 /* UIViewPropertyAnimatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83E24E9972B00406376 /* UIViewPropertyAnimatorExtension.swift */; };
+		6BB9C84924E9972C00406376 /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83F24E9972B00406376 /* SheetTransitionController.swift */; };
+		6BB9C84A24E9972C00406376 /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83F24E9972B00406376 /* SheetTransitionController.swift */; };
+		6BB9C84B24E9972C00406376 /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9C83F24E9972B00406376 /* SheetTransitionController.swift */; };
 		840C286E563FA1B0F0FAB81EBC692E52 /* Pods-MOSheetTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BBA107200C0BF90633E10589135290 /* Pods-MOSheetTransition_Tests-dummy.m */; };
 		A419B95C76FE4F0B1346DC90969FE90A /* Pods-MOSheetTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C587075679FCF96BFA27B26752543BFB /* Pods-MOSheetTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD42DBBA7B674414DCD0B9C401005EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CA29BFD11655248AFBF5A1164A43101D /* MOSheetTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D285AF2FD061B68C8677DE69329989D3 /* MOSheetTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED3A340683B8706AE797549137E35865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F3DCA0C903471E6C87DD9001BB2CE380 /* Pods-MOSheetTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A0A9C4074CE653433B8C4A32E76347 /* Pods-MOSheetTransition_Example-dummy.m */; };
-		FD6FDB0C5C1E34F32CFBFF20317696C9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF52574A469EBA6F57281DBA94183 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +49,8 @@
 
 /* Begin PBXFileReference section */
 		01A0A9C4074CE653433B8C4A32E76347 /* Pods-MOSheetTransition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOSheetTransition_Example-dummy.m"; sourceTree = "<group>"; };
-		0D47784A12ED3736D150C6AD098783CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0D47784A12ED3736D150C6AD098783CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		15CE1F926FB9F08A3060C6B9CB056A5B /* Pods-MOSheetTransition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOSheetTransition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1FEFF52574A469EBA6F57281DBA94183 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MOSheetTransition/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		273CDD0D68510DB6374999B15BE00175 /* Pods-MOSheetTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOSheetTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		31EF9038A9437DD003F3C9C62FFE4950 /* Pods-MOSheetTransition_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOSheetTransition_Tests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -53,18 +63,22 @@
 		4D48674463812E101E17D2702A77D8C6 /* Pods-MOSheetTransition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOSheetTransition_Example-frameworks.sh"; sourceTree = "<group>"; };
 		518187DBC6BFB4005B5627E862918B5F /* Pods-MOSheetTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOSheetTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		523C30D1DFFF7F05AF9BA125F22171E4 /* MOSheetTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOSheetTransition.debug.xcconfig; sourceTree = "<group>"; };
-		61D2907C3A4BBB375A93892375915080 /* MOSheetTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MOSheetTransition.framework; path = MOSheetTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D2907C3A4BBB375A93892375915080 /* MOSheetTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MOSheetTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB9C83C24E9972B00406376 /* SheetInteractionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetInteractionCoordinator.swift; sourceTree = "<group>"; };
+		6BB9C83D24E9972B00406376 /* SheetAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetAnimator.swift; sourceTree = "<group>"; };
+		6BB9C83E24E9972B00406376 /* UIViewPropertyAnimatorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPropertyAnimatorExtension.swift; sourceTree = "<group>"; };
+		6BB9C83F24E9972B00406376 /* SheetTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetTransitionController.swift; sourceTree = "<group>"; };
 		73AD177176124FF1339FB93A21B8CFA4 /* Pods-MOSheetTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOSheetTransition_Tests.modulemap"; sourceTree = "<group>"; };
-		87E3BDA96368E661855076FE947009EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		88E4153E7B9D731B2850EB144176F6B5 /* Pods_MOSheetTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOSheetTransition_Example.framework; path = "Pods-MOSheetTransition_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90187CCED860CC094F70C0D052426157 /* Pods_MOSheetTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOSheetTransition_Tests.framework; path = "Pods-MOSheetTransition_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87E3BDA96368E661855076FE947009EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		88E4153E7B9D731B2850EB144176F6B5 /* Pods_MOSheetTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOSheetTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90187CCED860CC094F70C0D052426157 /* Pods_MOSheetTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOSheetTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A09433F032C85E28F1A517C0499C1C12 /* Pods-MOSheetTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOSheetTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF098F103F10E36BBF6B631213C663E7 /* Pods-MOSheetTransition_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOSheetTransition_Example-Info.plist"; sourceTree = "<group>"; };
 		B5B878F253EB1699664B2A132B2155DC /* MOSheetTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MOSheetTransition-dummy.m"; sourceTree = "<group>"; };
 		C587075679FCF96BFA27B26752543BFB /* Pods-MOSheetTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOSheetTransition_Example-umbrella.h"; sourceTree = "<group>"; };
 		CE532CFCD6FDE56AD0FB979E8B53F7BD /* Pods-MOSheetTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOSheetTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CEF04BBC3ED5A34BE2F8BC6C7DCD70E9 /* MOSheetTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MOSheetTransition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEF04BBC3ED5A34BE2F8BC6C7DCD70E9 /* MOSheetTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MOSheetTransition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D285AF2FD061B68C8677DE69329989D3 /* MOSheetTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MOSheetTransition-umbrella.h"; sourceTree = "<group>"; };
 		E7F052CF148255905EF202696646E448 /* Pods-MOSheetTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOSheetTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9BBA107200C0BF90633E10589135290 /* Pods-MOSheetTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOSheetTransition_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -215,7 +229,10 @@
 		DFB813C8AE3F14CE4D7A6DEAF13C2BF0 /* MOSheetTransition */ = {
 			isa = PBXGroup;
 			children = (
-				1FEFF52574A469EBA6F57281DBA94183 /* ReplaceMe.swift */,
+				6BB9C83F24E9972B00406376 /* SheetTransitionController.swift */,
+				6BB9C83D24E9972B00406376 /* SheetAnimator.swift */,
+				6BB9C83C24E9972B00406376 /* SheetInteractionCoordinator.swift */,
+				6BB9C83E24E9972B00406376 /* UIViewPropertyAnimatorExtension.swift */,
 				5FA90487CD3C08DE51C808803C326DD7 /* Pod */,
 				8036C244922C9A648CAEEE8D2360DF1A /* Support Files */,
 			);
@@ -317,6 +334,17 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					007DDE002C0650E676870DB259E31CA4 = {
+						LastSwiftMigration = 1160;
+					};
+					A8DCB1F95D6B306F2F3479122729B780 = {
+						LastSwiftMigration = 1160;
+					};
+					ED36174EFB4CE90F7F2A61868C3FBC34 = {
+						LastSwiftMigration = 1160;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -368,7 +396,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D865AE7B8749BA82D28D878B0B65880 /* MOSheetTransition-dummy.m in Sources */,
-				FD6FDB0C5C1E34F32CFBFF20317696C9 /* ReplaceMe.swift in Sources */,
+				6BB9C84324E9972C00406376 /* SheetAnimator.swift in Sources */,
+				6BB9C84624E9972C00406376 /* UIViewPropertyAnimatorExtension.swift in Sources */,
+				6BB9C84924E9972C00406376 /* SheetTransitionController.swift in Sources */,
+				6BB9C84024E9972C00406376 /* SheetInteractionCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +408,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				840C286E563FA1B0F0FAB81EBC692E52 /* Pods-MOSheetTransition_Tests-dummy.m in Sources */,
+				6BB9C84524E9972C00406376 /* SheetAnimator.swift in Sources */,
+				6BB9C84824E9972C00406376 /* UIViewPropertyAnimatorExtension.swift in Sources */,
+				6BB9C84B24E9972C00406376 /* SheetTransitionController.swift in Sources */,
+				6BB9C84224E9972C00406376 /* SheetInteractionCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +420,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DCA0C903471E6C87DD9001BB2CE380 /* Pods-MOSheetTransition_Example-dummy.m in Sources */,
+				6BB9C84424E9972C00406376 /* SheetAnimator.swift in Sources */,
+				6BB9C84724E9972C00406376 /* UIViewPropertyAnimatorExtension.swift in Sources */,
+				6BB9C84A24E9972C00406376 /* SheetTransitionController.swift in Sources */,
+				6BB9C84124E9972C00406376 /* SheetInteractionCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3C4A86867F26CC22EEBA14BE8BEC11A6 /* MOSheetTransition.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -422,7 +462,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MOSheetTransition/MOSheetTransition-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MOSheetTransition/MOSheetTransition-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MOSheetTransition/MOSheetTransition.modulemap";
 				PRODUCT_MODULE_NAME = MOSheetTransition;
@@ -443,6 +483,7 @@
 			baseConfigurationReference = 273CDD0D68510DB6374999B15BE00175 /* Pods-MOSheetTransition_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -454,7 +495,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MOSheetTransition_Tests/Pods-MOSheetTransition_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MOSheetTransition_Tests/Pods-MOSheetTransition_Tests.modulemap";
@@ -465,6 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -477,6 +519,7 @@
 			baseConfigurationReference = 518187DBC6BFB4005B5627E862918B5F /* Pods-MOSheetTransition_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -488,7 +531,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MOSheetTransition_Example/Pods-MOSheetTransition_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MOSheetTransition_Example/Pods-MOSheetTransition_Example.modulemap";
@@ -499,6 +542,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -510,6 +555,7 @@
 			baseConfigurationReference = E7F052CF148255905EF202696646E448 /* Pods-MOSheetTransition_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,7 +567,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MOSheetTransition_Tests/Pods-MOSheetTransition_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MOSheetTransition_Tests/Pods-MOSheetTransition_Tests.modulemap";
@@ -532,6 +578,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -543,6 +591,7 @@
 			baseConfigurationReference = 41C11CC80CBFC6D9917A4F7D730940A7 /* Pods-MOSheetTransition_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -554,7 +603,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MOSheetTransition_Example/Pods-MOSheetTransition_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MOSheetTransition_Example/Pods-MOSheetTransition_Example.modulemap";
@@ -565,6 +614,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -620,13 +670,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -683,7 +732,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -700,6 +749,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 523C30D1DFFF7F05AF9BA125F22171E4 /* MOSheetTransition.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -712,7 +762,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MOSheetTransition/MOSheetTransition-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MOSheetTransition/MOSheetTransition-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MOSheetTransition/MOSheetTransition.modulemap";
 				PRODUCT_MODULE_NAME = MOSheetTransition;
@@ -720,6 +770,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
