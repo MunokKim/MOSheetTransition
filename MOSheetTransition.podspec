@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'MOSheetTransition/Classes/**/*'
+  s.source_files = 'Sources/*.swift'
   
   # s.resource_bundles = {
   #   'MOSheetTransition' => ['MOSheetTransition/Assets/*.png']

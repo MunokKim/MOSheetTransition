@@ -10,18 +10,18 @@
 		1CD4A5CAD1D871A18B261F8EE6622D41 /* Pods-MOSheetTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D2B31D51D87AD93D2752C0EFC6C65C /* Pods-MOSheetTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D865AE7B8749BA82D28D878B0B65880 /* MOSheetTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B878F253EB1699664B2A132B2155DC /* MOSheetTransition-dummy.m */; };
 		57EEF9264A86CCF48D4E5C2764688C65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6B5B9A2A24E9A35600D966CF /* SheetInteractionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2624E9A35600D966CF /* SheetInteractionCoordinator.swift */; };
-		6B5B9A2B24E9A35600D966CF /* SheetInteractionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2624E9A35600D966CF /* SheetInteractionCoordinator.swift */; };
-		6B5B9A2C24E9A35600D966CF /* SheetInteractionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2624E9A35600D966CF /* SheetInteractionCoordinator.swift */; };
-		6B5B9A2D24E9A35600D966CF /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2724E9A35600D966CF /* SheetTransitionController.swift */; };
-		6B5B9A2E24E9A35600D966CF /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2724E9A35600D966CF /* SheetTransitionController.swift */; };
-		6B5B9A2F24E9A35600D966CF /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2724E9A35600D966CF /* SheetTransitionController.swift */; };
-		6B5B9A3024E9A35600D966CF /* SheetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2824E9A35600D966CF /* SheetAnimator.swift */; };
-		6B5B9A3124E9A35600D966CF /* SheetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2824E9A35600D966CF /* SheetAnimator.swift */; };
-		6B5B9A3224E9A35600D966CF /* SheetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2824E9A35600D966CF /* SheetAnimator.swift */; };
-		6B5B9A3324E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2924E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift */; };
-		6B5B9A3424E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2924E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift */; };
-		6B5B9A3524E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B9A2924E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift */; };
+		6B5B505824E9B64300CB60BE /* SheetInteractionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505424E9B64200CB60BE /* SheetInteractionCoordinator.swift */; };
+		6B5B505924E9B64300CB60BE /* SheetInteractionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505424E9B64200CB60BE /* SheetInteractionCoordinator.swift */; };
+		6B5B505A24E9B64300CB60BE /* SheetInteractionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505424E9B64200CB60BE /* SheetInteractionCoordinator.swift */; };
+		6B5B505B24E9B64300CB60BE /* SheetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505524E9B64200CB60BE /* SheetAnimator.swift */; };
+		6B5B505C24E9B64300CB60BE /* SheetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505524E9B64200CB60BE /* SheetAnimator.swift */; };
+		6B5B505D24E9B64300CB60BE /* SheetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505524E9B64200CB60BE /* SheetAnimator.swift */; };
+		6B5B505E24E9B64300CB60BE /* UIViewPropertyAnimatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505624E9B64200CB60BE /* UIViewPropertyAnimatorExtension.swift */; };
+		6B5B505F24E9B64300CB60BE /* UIViewPropertyAnimatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505624E9B64200CB60BE /* UIViewPropertyAnimatorExtension.swift */; };
+		6B5B506024E9B64300CB60BE /* UIViewPropertyAnimatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505624E9B64200CB60BE /* UIViewPropertyAnimatorExtension.swift */; };
+		6B5B506124E9B64300CB60BE /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505724E9B64200CB60BE /* SheetTransitionController.swift */; };
+		6B5B506224E9B64300CB60BE /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505724E9B64200CB60BE /* SheetTransitionController.swift */; };
+		6B5B506324E9B64300CB60BE /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505724E9B64200CB60BE /* SheetTransitionController.swift */; };
 		840C286E563FA1B0F0FAB81EBC692E52 /* Pods-MOSheetTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BBA107200C0BF90633E10589135290 /* Pods-MOSheetTransition_Tests-dummy.m */; };
 		A419B95C76FE4F0B1346DC90969FE90A /* Pods-MOSheetTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C587075679FCF96BFA27B26752543BFB /* Pods-MOSheetTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD42DBBA7B674414DCD0B9C401005EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -64,10 +64,10 @@
 		518187DBC6BFB4005B5627E862918B5F /* Pods-MOSheetTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOSheetTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		523C30D1DFFF7F05AF9BA125F22171E4 /* MOSheetTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOSheetTransition.debug.xcconfig; sourceTree = "<group>"; };
 		61D2907C3A4BBB375A93892375915080 /* MOSheetTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MOSheetTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B5B9A2624E9A35600D966CF /* SheetInteractionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SheetInteractionCoordinator.swift; path = MOSheetTransition/Classes/SheetInteractionCoordinator.swift; sourceTree = "<group>"; };
-		6B5B9A2724E9A35600D966CF /* SheetTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SheetTransitionController.swift; path = MOSheetTransition/Classes/SheetTransitionController.swift; sourceTree = "<group>"; };
-		6B5B9A2824E9A35600D966CF /* SheetAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SheetAnimator.swift; path = MOSheetTransition/Classes/SheetAnimator.swift; sourceTree = "<group>"; };
-		6B5B9A2924E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewPropertyAnimatorExtension.swift; path = MOSheetTransition/Classes/UIViewPropertyAnimatorExtension.swift; sourceTree = "<group>"; };
+		6B5B505424E9B64200CB60BE /* SheetInteractionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetInteractionCoordinator.swift; sourceTree = "<group>"; };
+		6B5B505524E9B64200CB60BE /* SheetAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetAnimator.swift; sourceTree = "<group>"; };
+		6B5B505624E9B64200CB60BE /* UIViewPropertyAnimatorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPropertyAnimatorExtension.swift; sourceTree = "<group>"; };
+		6B5B505724E9B64200CB60BE /* SheetTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetTransitionController.swift; sourceTree = "<group>"; };
 		73AD177176124FF1339FB93A21B8CFA4 /* Pods-MOSheetTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOSheetTransition_Tests.modulemap"; sourceTree = "<group>"; };
 		87E3BDA96368E661855076FE947009EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		88E4153E7B9D731B2850EB144176F6B5 /* Pods_MOSheetTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOSheetTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +174,17 @@
 			path = "Target Support Files/Pods-MOSheetTransition_Example";
 			sourceTree = "<group>";
 		};
+		6B5B505324E9B62700CB60BE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B505524E9B64200CB60BE /* SheetAnimator.swift */,
+				6B5B505424E9B64200CB60BE /* SheetInteractionCoordinator.swift */,
+				6B5B505724E9B64200CB60BE /* SheetTransitionController.swift */,
+				6B5B505624E9B64200CB60BE /* UIViewPropertyAnimatorExtension.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		8036C244922C9A648CAEEE8D2360DF1A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,10 +240,7 @@
 		DFB813C8AE3F14CE4D7A6DEAF13C2BF0 /* MOSheetTransition */ = {
 			isa = PBXGroup;
 			children = (
-				6B5B9A2824E9A35600D966CF /* SheetAnimator.swift */,
-				6B5B9A2624E9A35600D966CF /* SheetInteractionCoordinator.swift */,
-				6B5B9A2724E9A35600D966CF /* SheetTransitionController.swift */,
-				6B5B9A2924E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift */,
+				6B5B505324E9B62700CB60BE /* Sources */,
 				5FA90487CD3C08DE51C808803C326DD7 /* Pod */,
 				8036C244922C9A648CAEEE8D2360DF1A /* Support Files */,
 			);
@@ -396,10 +404,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D865AE7B8749BA82D28D878B0B65880 /* MOSheetTransition-dummy.m in Sources */,
-				6B5B9A2A24E9A35600D966CF /* SheetInteractionCoordinator.swift in Sources */,
-				6B5B9A3324E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift in Sources */,
-				6B5B9A3024E9A35600D966CF /* SheetAnimator.swift in Sources */,
-				6B5B9A2D24E9A35600D966CF /* SheetTransitionController.swift in Sources */,
+				6B5B505B24E9B64300CB60BE /* SheetAnimator.swift in Sources */,
+				6B5B505E24E9B64300CB60BE /* UIViewPropertyAnimatorExtension.swift in Sources */,
+				6B5B506124E9B64300CB60BE /* SheetTransitionController.swift in Sources */,
+				6B5B505824E9B64300CB60BE /* SheetInteractionCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,10 +416,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				840C286E563FA1B0F0FAB81EBC692E52 /* Pods-MOSheetTransition_Tests-dummy.m in Sources */,
-				6B5B9A2C24E9A35600D966CF /* SheetInteractionCoordinator.swift in Sources */,
-				6B5B9A3524E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift in Sources */,
-				6B5B9A3224E9A35600D966CF /* SheetAnimator.swift in Sources */,
-				6B5B9A2F24E9A35600D966CF /* SheetTransitionController.swift in Sources */,
+				6B5B505D24E9B64300CB60BE /* SheetAnimator.swift in Sources */,
+				6B5B506024E9B64300CB60BE /* UIViewPropertyAnimatorExtension.swift in Sources */,
+				6B5B506324E9B64300CB60BE /* SheetTransitionController.swift in Sources */,
+				6B5B505A24E9B64300CB60BE /* SheetInteractionCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,10 +428,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DCA0C903471E6C87DD9001BB2CE380 /* Pods-MOSheetTransition_Example-dummy.m in Sources */,
-				6B5B9A2B24E9A35600D966CF /* SheetInteractionCoordinator.swift in Sources */,
-				6B5B9A3424E9A35600D966CF /* UIViewPropertyAnimatorExtension.swift in Sources */,
-				6B5B9A3124E9A35600D966CF /* SheetAnimator.swift in Sources */,
-				6B5B9A2E24E9A35600D966CF /* SheetTransitionController.swift in Sources */,
+				6B5B505C24E9B64300CB60BE /* SheetAnimator.swift in Sources */,
+				6B5B505F24E9B64300CB60BE /* UIViewPropertyAnimatorExtension.swift in Sources */,
+				6B5B506224E9B64300CB60BE /* SheetTransitionController.swift in Sources */,
+				6B5B505924E9B64300CB60BE /* SheetInteractionCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
