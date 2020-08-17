@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Sources/*.swift'
+  s.source_files = '*.swift'
   
   # s.resource_bundles = {
   #   'MOSheetTransition' => ['MOSheetTransition/Assets/*.png']
@@ -37,4 +37,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'Combine'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_versions = '5.0'
 end

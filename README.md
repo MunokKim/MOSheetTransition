@@ -5,11 +5,28 @@
 [![License](https://img.shields.io/cocoapods/l/MOSheetTransition.svg?style=flat)](https://cocoapods.org/pods/MOSheetTransition)
 [![Platform](https://img.shields.io/cocoapods/p/MOSheetTransition.svg?style=flat)](https://cocoapods.org/pods/MOSheetTransition)
 
+A library that customized iOS default pageSheet style transitions and interactions.
+
+## Article
+
+
+
+## Usage
+Since `SheetTransitionController` adopts `UIViewControllerTransitioningDelegate` protocol, instantiate and assign it to `transitioningDelegate` property of the view controller to be present.
+```swift
+let vc = ViewController()
+vc.transitionController = SheetTransitionController(for: self, style: .original)
+vc.transitioningDelegate = vc.transitionController
+
+present(vc, animated: true, completion: nil)
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- Require iOS version 13
 
 ## Installation
 
