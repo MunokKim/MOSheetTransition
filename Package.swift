@@ -12,8 +12,7 @@ let package = Package(
                  targets: ["MOSheetTransition"])
     ],
     targets: [
-        .target(name: "MOSheetTransition",
-                path: "MOSheetTransition/Sources")
+        .target(name: "MOSheetTransition")
     ],
     swiftLanguageVersions: [
         .v5
