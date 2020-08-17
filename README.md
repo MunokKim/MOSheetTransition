@@ -18,6 +18,7 @@ By using `UIViewControllerInteractiveTransitioning` and `UIViewPropertyAnimator`
 Since `SheetTransitionController` adopts `UIViewControllerTransitioningDelegate` protocol, instantiate and assign it to `transitioningDelegate` property of the view controller to be present.
 ```swift
 let vc = ViewController()
+// `ViewController` must have a `transitionController` property.
 vc.transitionController = SheetTransitionController(for: self, style: .original)
 vc.transitioningDelegate = vc.transitionController
 
