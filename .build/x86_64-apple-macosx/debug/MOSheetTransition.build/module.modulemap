@@ -1,0 +1,4 @@
+module MOSheetTransition {
+    header "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/MOSheetTransition-Swift.h"
+    requires objc
+}

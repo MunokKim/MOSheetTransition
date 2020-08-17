@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "f2563f29a1dee71616b64d713901f579"
+build_time: [1597639896, 764659000]
+inputs:
+  "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetAnimator.swift": !dirty [1597587740, 484209482]
+  "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetInteractionCoordinator.swift": !dirty [1597587740, 470280846]
+  "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetTransitionController.swift": !dirty [1597596896, 152963719]
+  "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/UIViewPropertyAnimatorExtension.swift": !dirty [1596953582, 26501756]

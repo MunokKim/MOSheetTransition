@@ -1,0 +1,41 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "MOSheetTransition-debug.module": ["<MOSheetTransition-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<MOSheetTransition-debug.module>"]
+  "test": ["<MOSheetTransition-debug.module>"]
+default: "main"
+nodes:
+  "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/":
+    is-directory-structure: true
+commands:
+  "<MOSheetTransition-debug.module>":
+    tool: phony
+    inputs: ["/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetAnimator.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetInteractionCoordinator.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetTransitionController.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/UIViewPropertyAnimatorExtension.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.swiftmodule"]
+    outputs: ["<MOSheetTransition-debug.module>"]
+
+  "C.MOSheetTransition-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetAnimator.swift","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetInteractionCoordinator.swift","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetTransitionController.swift","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/UIViewPropertyAnimatorExtension.swift"]
+    outputs: ["/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetAnimator.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetInteractionCoordinator.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetTransitionController.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/UIViewPropertyAnimatorExtension.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "MOSheetTransition"
+    module-output-path: "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.swiftmodule"
+    import-paths: ["/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build"
+    objects: ["/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetAnimator.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetInteractionCoordinator.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetTransitionController.swift.o","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/UIViewPropertyAnimatorExtension.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-emit-objc-header","-emit-objc-header-path","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/MOSheetTransition-Swift.h","-color-diagnostics"]
+    sources: ["/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetAnimator.swift","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetInteractionCoordinator.swift","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetTransitionController.swift","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/UIViewPropertyAnimatorExtension.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Package.swift","/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

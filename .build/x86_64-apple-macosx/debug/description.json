@@ -1,0 +1,20 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.MOSheetTransition-debug.module" : "MOSheetTransition"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

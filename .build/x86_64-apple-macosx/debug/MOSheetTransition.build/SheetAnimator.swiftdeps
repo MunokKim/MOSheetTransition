@@ -1,0 +1,91 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SheetAnimator"
+provides-nominal:
+- "17MOSheetTransition13SheetAnimatorC"
+provides-member:
+- ["17MOSheetTransition13SheetAnimatorC", ""]
+provides-dynamic-lookup:
+- "animateCoverUpTransition"
+- "animateDiscoverDownTransition"
+- "animateTransition"
+- "animationAlpha"
+- "animationScale"
+- "backgroundWhiteView"
+- "dimView"
+- "isPresenting"
+- "sheetType"
+- "transitionDuration"
+- "transitioningObserver"
+depends-top-level:
+- !private "!="
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGAffineTransform"
+- "CGFloat"
+- !private "CGRect"
+- "NSObject"
+- "Never"
+- "PassthroughSubject"
+- "SheetAnimator"
+- "SheetTransitionController"
+- "TernaryPrecedence"
+- "TimeInterval"
+- "UIApplication"
+- "UIView"
+- "UIViewControllerAnimatedTransitioning"
+- "UIViewControllerContextTransitioning"
+depends-member:
+- !private ["SQ", "normal"]
+- !private ["SQ", "start"]
+- !private ["SH", "normal"]
+- !private ["SH", "start"]
+- !private ["7Combine18PassthroughSubjectC", "send"]
+- !private ["7Combine9PublisherP", "send"]
+- ["17MOSheetTransition13SheetAnimatorC", "Bool"]
+- ["17MOSheetTransition13SheetAnimatorC", "CGAffineTransform"]
+- ["17MOSheetTransition13SheetAnimatorC", "CGFloat"]
+- !private ["17MOSheetTransition13SheetAnimatorC", "CGRect"]
+- ["17MOSheetTransition13SheetAnimatorC", "Never"]
+- ["17MOSheetTransition13SheetAnimatorC", "PassthroughSubject"]
+- ["17MOSheetTransition13SheetAnimatorC", "SheetTransitionController"]
+- ["17MOSheetTransition13SheetAnimatorC", "TimeInterval"]
+- ["17MOSheetTransition13SheetAnimatorC", "UIView"]
+- ["17MOSheetTransition13SheetAnimatorC", "UIViewControllerContextTransitioning"]
+- !private ["17MOSheetTransition13SheetAnimatorC", "animateCoverUpTransition"]
+- !private ["17MOSheetTransition13SheetAnimatorC", "animateDiscoverDownTransition"]
+- !private ["17MOSheetTransition13SheetAnimatorC", "backgroundWhiteView"]
+- ["17MOSheetTransition13SheetAnimatorC", "deinit"]
+- !private ["17MOSheetTransition13SheetAnimatorC", "dimView"]
+- ["17MOSheetTransition13SheetAnimatorC", "init"]
+- ["17MOSheetTransition13SheetAnimatorC", "isPresenting"]
+- !private ["17MOSheetTransition13SheetAnimatorC", "sheetType"]
+- !private ["17MOSheetTransition13SheetAnimatorC", "transitionDuration"]
+- !private ["17MOSheetTransition13SheetAnimatorC", "transitioningObserver"]
+- ["17MOSheetTransition05SheetB10ControllerC", "SheetType"]
+- ["17MOSheetTransition05SheetB10ControllerC", "TransitioningState"]
+- !private ["17MOSheetTransition05SheetB10ControllerC0C4TypeO", "deinit"]
+- !private ["17MOSheetTransition05SheetB10ControllerC0C4TypeO", "normal"]
+- !private ["7Combine7SubjectP", "send"]
+- !private ["17MOSheetTransition05SheetB10ControllerC18TransitioningStateO", "start"]
+depends-nominal:
+- !private "SQ"
+- !private "SH"
+- !private "7Combine18PassthroughSubjectC"
+- !private "7Combine9PublisherP"
+- "17MOSheetTransition13SheetAnimatorC"
+- "17MOSheetTransition05SheetB10ControllerC"
+- !private "17MOSheetTransition05SheetB10ControllerC0C4TypeO"
+- !private "7Combine7SubjectP"
+- !private "17MOSheetTransition05SheetB10ControllerC18TransitioningStateO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "8f1304f39e5f1b8d047974cc37d20f73"

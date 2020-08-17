@@ -1,0 +1,175 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Sa", ""]
+- ["Sa", "isReversed"]
+- ["Sa", "fractionComplete"]
+- ["Sa", "startAnimations"]
+- ["Sa", "pauseAnimations"]
+- ["Sa", "continueAnimations"]
+- ["Sa", "reverse"]
+- ["Sa", "remove"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- !private "StringLiteralType"
+- "UITimingCurveProvider"
+- "UIViewPropertyAnimator"
+- !private "assertionFailure"
+depends-member:
+- ["Sa", "Bool"]
+- ["Sa", "CGFloat"]
+- ["Sa", "UITimingCurveProvider"]
+- ["Sa", "UIViewPropertyAnimator"]
+- !private ["Sa", "assertionFailure"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "forEach"]
+- ["Sa", "isReversed"]
+- ["Sa", "pauseAnimations"]
+- ["Sa", "remove"]
+- ["Sa", "reverse"]
+- ["Sa", "startAnimations"]
+- ["SK", "CGFloat"]
+- ["SK", "UITimingCurveProvider"]
+- ["SK", "UIViewPropertyAnimator"]
+- !private ["SK", "assertionFailure"]
+- !private ["SK", "filter"]
+- !private ["SK", "forEach"]
+- ["Sl", "CGFloat"]
+- ["Sl", "UITimingCurveProvider"]
+- ["Sl", "UIViewPropertyAnimator"]
+- !private ["Sl", "assertionFailure"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- ["s28CustomDebugStringConvertibleP", "UITimingCurveProvider"]
+- ["s28CustomDebugStringConvertibleP", "UIViewPropertyAnimator"]
+- !private ["s28CustomDebugStringConvertibleP", "assertionFailure"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s17CustomReflectableP", "CGFloat"]
+- ["s17CustomReflectableP", "UITimingCurveProvider"]
+- ["s17CustomReflectableP", "UIViewPropertyAnimator"]
+- !private ["s17CustomReflectableP", "assertionFailure"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s23CustomStringConvertibleP", "CGFloat"]
+- ["s23CustomStringConvertibleP", "UITimingCurveProvider"]
+- ["s23CustomStringConvertibleP", "UIViewPropertyAnimator"]
+- !private ["s23CustomStringConvertibleP", "assertionFailure"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["Se", "CGFloat"]
+- ["Se", "UITimingCurveProvider"]
+- ["Se", "UIViewPropertyAnimator"]
+- !private ["Se", "assertionFailure"]
+- !private ["Se", "filter"]
+- !private ["Se", "forEach"]
+- ["SE", "CGFloat"]
+- ["SE", "UITimingCurveProvider"]
+- ["SE", "UIViewPropertyAnimator"]
+- !private ["SE", "assertionFailure"]
+- !private ["SE", "filter"]
+- !private ["SE", "forEach"]
+- ["SQ", "CGFloat"]
+- ["SQ", "UITimingCurveProvider"]
+- ["SQ", "UIViewPropertyAnimator"]
+- !private ["SQ", "assertionFailure"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "CGFloat"]
+- ["s25ExpressibleByArrayLiteralP", "UITimingCurveProvider"]
+- ["s25ExpressibleByArrayLiteralP", "UIViewPropertyAnimator"]
+- !private ["s25ExpressibleByArrayLiteralP", "assertionFailure"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["SH", "CGFloat"]
+- ["SH", "UITimingCurveProvider"]
+- ["SH", "UIViewPropertyAnimator"]
+- !private ["SH", "assertionFailure"]
+- !private ["SH", "filter"]
+- !private ["SH", "forEach"]
+- ["SM", "CGFloat"]
+- ["SM", "UITimingCurveProvider"]
+- ["SM", "UIViewPropertyAnimator"]
+- !private ["SM", "assertionFailure"]
+- !private ["SM", "filter"]
+- !private ["SM", "forEach"]
+- ["Sk", "CGFloat"]
+- ["Sk", "UITimingCurveProvider"]
+- ["Sk", "UIViewPropertyAnimator"]
+- !private ["Sk", "assertionFailure"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "forEach"]
+- ["Sm", "CGFloat"]
+- ["Sm", "UITimingCurveProvider"]
+- ["Sm", "UIViewPropertyAnimator"]
+- !private ["Sm", "assertionFailure"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "forEach"]
+- ["ST", "CGFloat"]
+- ["ST", "UITimingCurveProvider"]
+- ["ST", "UIViewPropertyAnimator"]
+- !private ["ST", "assertionFailure"]
+- !private ["ST", "filter"]
+- !private ["ST", "forEach"]
+- ["s14_ArrayProtocolP", "CGFloat"]
+- ["s14_ArrayProtocolP", "UITimingCurveProvider"]
+- ["s14_ArrayProtocolP", "UIViewPropertyAnimator"]
+- !private ["s14_ArrayProtocolP", "assertionFailure"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- ["s24_DestructorSafeContainerP", "CGFloat"]
+- ["s24_DestructorSafeContainerP", "UITimingCurveProvider"]
+- ["s24_DestructorSafeContainerP", "UIViewPropertyAnimator"]
+- !private ["s24_DestructorSafeContainerP", "assertionFailure"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- ["s19_HasContiguousBytesP", "CGFloat"]
+- ["s19_HasContiguousBytesP", "UITimingCurveProvider"]
+- ["s19_HasContiguousBytesP", "UIViewPropertyAnimator"]
+- !private ["s19_HasContiguousBytesP", "assertionFailure"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- ["s35_HasCustomAnyHashableRepresentationP", "CGFloat"]
+- ["s35_HasCustomAnyHashableRepresentationP", "UITimingCurveProvider"]
+- ["s35_HasCustomAnyHashableRepresentationP", "UIViewPropertyAnimator"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "assertionFailure"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+depends-nominal:
+- "Sa"
+- "SK"
+- "Sl"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "SM"
+- "Sk"
+- "Sm"
+- "ST"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "923ed8fbf51b0a2f8ec93d8a5ae32537"

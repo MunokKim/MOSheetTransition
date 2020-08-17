@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/master.swiftdeps"
+  },
+  "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetAnimator.swift": {
+    "dependencies": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetAnimator.d",
+    "object": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetAnimator.swift.o",
+    "swiftmodule": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetAnimator~partial.swiftmodule",
+    "swift-dependencies": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetAnimator.swiftdeps"
+  },
+  "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetInteractionCoordinator.swift": {
+    "dependencies": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetInteractionCoordinator.d",
+    "object": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetInteractionCoordinator.swift.o",
+    "swiftmodule": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetInteractionCoordinator~partial.swiftmodule",
+    "swift-dependencies": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetInteractionCoordinator.swiftdeps"
+  },
+  "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/SheetTransitionController.swift": {
+    "dependencies": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetTransitionController.d",
+    "object": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetTransitionController.swift.o",
+    "swiftmodule": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetTransitionController~partial.swiftmodule",
+    "swift-dependencies": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/SheetTransitionController.swiftdeps"
+  },
+  "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/Sources/UIViewPropertyAnimatorExtension.swift": {
+    "dependencies": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/UIViewPropertyAnimatorExtension.d",
+    "object": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/UIViewPropertyAnimatorExtension.swift.o",
+    "swiftmodule": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/UIViewPropertyAnimatorExtension~partial.swiftmodule",
+    "swift-dependencies": "/Users/Munokkim/Developer/GitRepository/MOSheetTransition/.build/x86_64-apple-macosx/debug/MOSheetTransition.build/UIViewPropertyAnimatorExtension.swiftdeps"
+  }
+}
