@@ -23,10 +23,7 @@ present(vc, animated: true, completion: nil)
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-- Require iOS version 13
+Clone the repository and run the example project in the `Example` directory.
 
 ## Installation
 
@@ -36,6 +33,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'MOSheetTransition'
 ```
+
+## Requirements
+- Require iOS version 13
 
 ## Author
 
