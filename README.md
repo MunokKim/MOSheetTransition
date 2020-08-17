@@ -32,11 +32,25 @@ Clone the repository and run the example project in the `Example` directory.
 
 ## Installation
 
+### Cocoapods
+
 MOSheetTransition is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'MOSheetTransition'
+```
+
+### Swift Package Manager
+
+The Swift Package Manager is a tool for automating the distribution of Swift code and is integrated into the swift compiler. It is in early development, but MOSheetTransition does support its use on supported platforms.
+
+Once you have your Swift package set up, adding MOSheetTransition as a dependency is as easy as adding it to the dependencies value of your Package.swift.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/MunokKim/MOSheetTransition.git", .upToNextMajor(from: "0.2.0"))
+]
 ```
 
 ## Requirements

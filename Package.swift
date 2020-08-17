@@ -12,8 +12,8 @@ let package = Package(
                  targets: ["MOSheetTransition"])
     ],
     targets: [
-        .target(name: "YYSimpleAlert",
-                path: "YYSimpleAlert/Classes")
+        .target(name: "MOSheetTransition",
+                path: "MOSheetTransition/Sources")
     ],
     swiftLanguageVersions: [
         .v5
