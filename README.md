@@ -7,11 +7,14 @@
 
 A library that customized iOS default pageSheet style transitions and interactions.
 
+By using `UIViewControllerInteractiveTransitioning` and `UIViewPropertyAnimator`, interactive transitions are implemented in a form similar to `UIModalPresentationStyle`'s `.pageSheet`.
+
 ## Article
 
-
+[Create iOS default pageSheet style transition and interaction](https://medium.com/@shoveler)
 
 ## Usage
+
 Since `SheetTransitionController` adopts `UIViewControllerTransitioningDelegate` protocol, instantiate and assign it to `transitioningDelegate` property of the view controller to be present.
 ```swift
 let vc = ViewController()
