@@ -6,6 +6,8 @@
 [![License](https://img.shields.io/cocoapods/l/MOSheetTransition.svg?style=flat)](https://cocoapods.org/pods/MOSheetTransition)
 [![Platform](https://img.shields.io/cocoapods/p/MOSheetTransition.svg?style=flat)](https://cocoapods.org/pods/MOSheetTransition)
 
+![](./Images/example.gif)
+
 A library that customized iOS default pageSheet style transitions and interactions.
 
 By using `UIViewControllerInteractiveTransitioning` and `UIViewPropertyAnimator`, interactive transitions are implemented in a form similar to `UIModalPresentationStyle`'s `.pageSheet`.
@@ -19,6 +21,7 @@ By using `UIViewControllerInteractiveTransitioning` and `UIViewPropertyAnimator`
 Since `SheetTransitionController` adopts `UIViewControllerTransitioningDelegate` protocol, instantiate and assign it to `transitioningDelegate` property of the view controller to be present.
 ```swift
 let vc = ViewController()
+vc.modalPresentationStyle = .custom
 // `ViewController` must have a `transitionController` property.
 vc.transitionController = SheetTransitionController(for: self, style: .original)
 vc.transitioningDelegate = vc.transitionController
