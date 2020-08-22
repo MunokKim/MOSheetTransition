@@ -8,6 +8,8 @@
 
 ![](./Images/example.gif)
 
+## About
+
 A library that customized iOS default pageSheet style transitions and interactions.
 
 By using `UIViewControllerInteractiveTransitioning` and `UIViewPropertyAnimator`, interactive transitions are implemented in a form similar to `UIModalPresentationStyle`'s `.pageSheet`.
