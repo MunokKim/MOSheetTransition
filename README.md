@@ -57,7 +57,7 @@ dependencies: [
 ```
 
 ## Requirements
-- Require iOS version 13
+- iOS 13 +
 
 ## Author
 
