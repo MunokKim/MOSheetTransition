@@ -8,13 +8,9 @@
 import UIKit
 import Combine
 
-/// Present/Dismiss를 위한 interactive/non-interactive 전환을 컨트롤 한다.
+/// Present/Dismiss를 위한 interactive/non-interactive 전환을 컨트롤 합니다.
 ///
-/// - interactive 및 non-interactive 애니메이션을 담당하는 객체를 가지고 있다.
-/// - `UIViewControllerTransitioningDelegate` 프로토콜을 채택하고 있으므로 인스턴스화하여 Present 할 뷰컨트롤러의 `transitioningDelegate` 속성에 할당해서 사용한다.
-/// - 팬제스처 인식기를 가지고 있고 `UIGestureRecognizerDelegate`를 채택하고 있어서 제스처를 관리하고 인터렉션 조정자에게 제스처를 전달한다.
-/// - 전환의 진행 상태를 열거형 타입으로 가지고 있으며 각 상태가 바뀔 때를 구독할 수 있습니다.
-/// - Sheet가 표현되는 모양에 대한 열거형 타입을 가지고 있으며 Sheet의 전환을 스타일 별로 다르게 구현할 수 있습니다.
+/// UIViewControllerTransitioningDelegate 프로토콜을 채택하고 있으므로 인스턴스화하여 Present 할 뷰컨트롤러의 transitioningDelegate 속성에 할당해서 사용합니다.
 open class SheetTransitionController: NSObject {
     
     public enum TransitioningState {
