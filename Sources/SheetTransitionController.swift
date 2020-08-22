@@ -1,8 +1,7 @@
 //
 //  SheetTransitionController.swift
-//  EazelIOS
 //
-//  Created by eazel5 (Munok) on 2020/07/28.
+//  Created by Munok Kim on 2020/07/28.
 //  Copyright © 2020 eazel. All rights reserved.
 //
 
@@ -11,25 +10,30 @@ import Combine
 
 /// Present/Dismiss를 위한 interactive/non-interactive 전환을 컨트롤 한다.
 ///
+/// - interactive 및 non-interactive 애니메이션을 담당하는 객체를 가지고 있다.
 /// - `UIViewControllerTransitioningDelegate` 프로토콜을 채택하고 있으므로 인스턴스화하여 Present 할 뷰컨트롤러의 `transitioningDelegate` 속성에 할당해서 사용한다.
+/// - 팬제스처 인식기를 가지고 있고 `UIGestureRecognizerDelegate`를 채택하고 있어서 제스처를 관리하고 인터렉션 조정자에게 제스처를 전달한다.
+/// - 전환의 진행 상태를 열거형 타입으로 가지고 있으며 각 상태가 바뀔 때를 구독할 수 있습니다.
+/// - Sheet가 표현되는 모양에 대한 열거형 타입을 가지고 있으며 Sheet의 전환을 스타일 별로 다르게 구현할 수 있습니다.
 open class SheetTransitionController: NSObject {
     
-    enum TransitioningState {
+    public enum TransitioningState {
         case start
         case `continue`
         case cancel
         case complete
     }
     
-    public enum SheetType {
-        case normal
+    public enum SheetStyle {
+        case original
+        case onlyDim
         case simple
     }
     
     /// 전환의 진행 상태를 열거형 타입으로 가지고 있으며 뷰컨트롤러에서 각 진행 상태가 바뀔 때를 구독할 수 있습니다.
-    let transitioningState: AnyPublisher<TransitioningState, Never>
+    public let transitioningState: AnyPublisher<TransitioningState, Never>
     /// 팬제스처 인식기를 가지고 있고 `UIGestureRecognizerDelegate`의 메서드를 통해 제스처를 관리하고 인터렉션 조정자에게 제스처를 전달합니다.
-    lazy var panGestureRecognizer: UIPanGestureRecognizer = createPanGestureRecognizer()
+    public lazy var panGestureRecognizer: UIPanGestureRecognizer = createPanGestureRecognizer()
     
     /// non-interactive 애니메이션을 담당하는 객체입니다.
     private let animator: SheetAnimator
@@ -38,14 +42,14 @@ open class SheetTransitionController: NSObject {
     private var isInteracting: Bool = false
     private weak var toViewController: UIViewController!
     
-    public init(for viewController: UIViewController, type: SheetType = .normal) {
+    public init(for viewController: UIViewController, style: SheetStyle = .original) {
         let subject = PassthroughSubject<TransitioningState, Never>()
         
         self.transitioningState = subject.eraseToAnyPublisher()
         self.animator = SheetAnimator(observer: subject,
-                                      type: type)
+                                      style: style)
         self.interactor = SheetInteractionCoordinator(observer: subject,
-                                                      type: type)
+                                                      style: style)
         self.toViewController = viewController
         
         super.init()
@@ -54,7 +58,7 @@ open class SheetTransitionController: NSObject {
     }
     
     deinit {
-        print("Deinit CoverUpTransitionController.")
+        print("Deinit SheetTransitionController.")
     }
 }
 
@@ -133,7 +137,7 @@ extension SheetTransitionController: UIViewControllerTransitioningDelegate {
     public func interactionControllerForDismissal(
         using animator: UIViewControllerAnimatedTransitioning
     ) -> UIViewControllerInteractiveTransitioning? {
-        self.interactor.coverUpAnimator = self.animator
+        self.interactor.sheetAnimator = self.animator
         
         return self.isInteracting ? self.interactor : nil
     }

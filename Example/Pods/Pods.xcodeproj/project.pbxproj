@@ -22,6 +22,9 @@
 		6B5B506124E9B64300CB60BE /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505724E9B64200CB60BE /* SheetTransitionController.swift */; };
 		6B5B506224E9B64300CB60BE /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505724E9B64200CB60BE /* SheetTransitionController.swift */; };
 		6B5B506324E9B64300CB60BE /* SheetTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B505724E9B64200CB60BE /* SheetTransitionController.swift */; };
+		6BF601BD24F0F55300DB9CE8 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF601BC24F0F55300DB9CE8 /* DeviceInfo.swift */; };
+		6BF601BE24F0F55300DB9CE8 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF601BC24F0F55300DB9CE8 /* DeviceInfo.swift */; };
+		6BF601BF24F0F55300DB9CE8 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF601BC24F0F55300DB9CE8 /* DeviceInfo.swift */; };
 		840C286E563FA1B0F0FAB81EBC692E52 /* Pods-MOSheetTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BBA107200C0BF90633E10589135290 /* Pods-MOSheetTransition_Tests-dummy.m */; };
 		A419B95C76FE4F0B1346DC90969FE90A /* Pods-MOSheetTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C587075679FCF96BFA27B26752543BFB /* Pods-MOSheetTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD42DBBA7B674414DCD0B9C401005EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -68,6 +71,7 @@
 		6B5B505524E9B64200CB60BE /* SheetAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetAnimator.swift; sourceTree = "<group>"; };
 		6B5B505624E9B64200CB60BE /* UIViewPropertyAnimatorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPropertyAnimatorExtension.swift; sourceTree = "<group>"; };
 		6B5B505724E9B64200CB60BE /* SheetTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetTransitionController.swift; sourceTree = "<group>"; };
+		6BF601BC24F0F55300DB9CE8 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 		73AD177176124FF1339FB93A21B8CFA4 /* Pods-MOSheetTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOSheetTransition_Tests.modulemap"; sourceTree = "<group>"; };
 		87E3BDA96368E661855076FE947009EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		88E4153E7B9D731B2850EB144176F6B5 /* Pods_MOSheetTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOSheetTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +185,7 @@
 				6B5B505424E9B64200CB60BE /* SheetInteractionCoordinator.swift */,
 				6B5B505724E9B64200CB60BE /* SheetTransitionController.swift */,
 				6B5B505624E9B64200CB60BE /* UIViewPropertyAnimatorExtension.swift */,
+				6BF601BC24F0F55300DB9CE8 /* DeviceInfo.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -404,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D865AE7B8749BA82D28D878B0B65880 /* MOSheetTransition-dummy.m in Sources */,
+				6BF601BD24F0F55300DB9CE8 /* DeviceInfo.swift in Sources */,
 				6B5B505B24E9B64300CB60BE /* SheetAnimator.swift in Sources */,
 				6B5B505E24E9B64300CB60BE /* UIViewPropertyAnimatorExtension.swift in Sources */,
 				6B5B506124E9B64300CB60BE /* SheetTransitionController.swift in Sources */,
@@ -416,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840C286E563FA1B0F0FAB81EBC692E52 /* Pods-MOSheetTransition_Tests-dummy.m in Sources */,
+				6BF601BF24F0F55300DB9CE8 /* DeviceInfo.swift in Sources */,
 				6B5B505D24E9B64300CB60BE /* SheetAnimator.swift in Sources */,
 				6B5B506024E9B64300CB60BE /* UIViewPropertyAnimatorExtension.swift in Sources */,
 				6B5B506324E9B64300CB60BE /* SheetTransitionController.swift in Sources */,
@@ -428,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DCA0C903471E6C87DD9001BB2CE380 /* Pods-MOSheetTransition_Example-dummy.m in Sources */,
+				6BF601BE24F0F55300DB9CE8 /* DeviceInfo.swift in Sources */,
 				6B5B505C24E9B64300CB60BE /* SheetAnimator.swift in Sources */,
 				6B5B505F24E9B64300CB60BE /* UIViewPropertyAnimatorExtension.swift in Sources */,
 				6B5B506224E9B64300CB60BE /* SheetTransitionController.swift in Sources */,

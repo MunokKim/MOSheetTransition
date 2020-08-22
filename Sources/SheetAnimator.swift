@@ -1,8 +1,7 @@
 //
 //  SheetAnimator.swift
-//  EazelIOS
 //
-//  Created by eazel5 (Munok) on 2020/07/28.
+//  Created by Munok Kim on 2020/07/28.
 //  Copyright © 2020 eazel. All rights reserved.
 //
 
@@ -14,39 +13,33 @@ class SheetAnimator: NSObject {
     
     var isPresenting: Bool = true
     
-    static let animationScale = CGAffineTransform(scaleX: 0.9, y: 0.9)
     static let animationAlpha: CGFloat = 0.5
+    static let animationScale = CGAffineTransform(scaleX: 0.9, y: 0.9)
+    static let animationCornerRadius: CGFloat = 15.0
     
-    let backgroundWhiteView: UIView = {
-        let view = UIView()
-        view.backgroundColor = .systemBackground
-        
-        return view
-    }()
-    
-    let dimView: UIView = {
-        let view = UIView()
-        view.backgroundColor = .black
-        view.alpha = 0.0
-        
-        return view
-    }()
-    
+    /// 전환의 진행 상태를 열거형 타입으로 가지고 있으며 각 상태가 바뀔 때를 구독할 수 있습니다.
     private let transitioningObserver: PassthroughSubject<SheetTransitionController.TransitioningState, Never>
-    /// Sheet의 모양을 열거형 타입으로 가지고 있으며 Sheet의 전환을 스타일 별로 다르게 구현할 수 있습니다.
-    private let sheetType: SheetTransitionController.SheetType
+    /// Sheet가 표현되는 모양에 대한 열거형 타입을 가지고 있으며 Sheet의 전환을 스타일 별로 다르게 구현할 수 있습니다.
+    private let sheetStyle: SheetTransitionController.SheetStyle
+    
+    let dimmedView: UIView = {
+        $0.backgroundColor = .black
+        $0.alpha = 0.0
+        
+        return $0
+    }(UIView())
     
     init(
         observer: PassthroughSubject<SheetTransitionController.TransitioningState, Never>,
-        type: SheetTransitionController.SheetType
+        style: SheetTransitionController.SheetStyle
     ) {
         self.transitioningObserver = observer
-        self.sheetType = type
+        self.sheetStyle = style
         
         super.init()
     }
     
-    func animateCoverUpTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    private func prepareForCoverUp(using transitionContext: UIViewControllerContextTransitioning) {
         guard let fromVC = transitionContext.viewController(forKey: .from),
             let toVC = transitionContext.viewController(forKey: .to) else {
                 transitionContext.completeTransition(false)
@@ -56,23 +49,38 @@ class SheetAnimator: NSObject {
         let container = transitionContext.containerView
         let screenOffDown = CGAffineTransform(translationX: 0, y: container.frame.height)
         
-        transitioningObserver.send(.start)
+        dimmedView.frame = CGRect(x: 0,
+                                  y: 0,
+                                  width: container.frame.width,
+                                  height: container.frame.height)
 
+        container.addSubview(fromVC.view)
+        container.addSubview(dimmedView)
         container.addSubview(toVC.view)
         
-        toVC.view.transform = screenOffDown
-        
-        if sheetType == .normal {
-            backgroundWhiteView.frame = transitionContext.containerView.frame
-            dimView.frame = CGRect(x: 0,
-                                   y: 0,
-                                   width: transitionContext.containerView.frame.width,
-                                   height: transitionContext.containerView.frame.height)
-            
-            container.insertSubview(backgroundWhiteView, at: 0)
-            container.insertSubview(fromVC.view, aboveSubview: backgroundWhiteView)
-            container.insertSubview(dimView, aboveSubview: fromVC.view)
+        if DeviceInfo.isPhone {
+            fromVC.view.clipsToBounds = true
+            fromVC.view.layer.cornerRadius = DeviceInfo.cornerRadius
+            fromVC.view.layer.cornerCurve = .continuous
         }
+        
+        if DeviceInfo.hasNotch || DeviceInfo.isPad {
+            toVC.view.clipsToBounds = true
+            toVC.view.layer.cornerRadius = SheetAnimator.animationCornerRadius
+            toVC.view.layer.cornerCurve = .continuous
+        }
+        
+        toVC.view.transform = screenOffDown
+    }
+    
+    func animateCoverUpTransition(using transitionContext: UIViewControllerContextTransitioning) {
+        guard let fromVC = transitionContext.viewController(forKey: .from),
+            let toVC = transitionContext.viewController(forKey: .to) else {
+                transitionContext.completeTransition(false)
+                return
+        }
+        
+        transitioningObserver.send(.start)
         
         UIView.animate(withDuration: transitionDuration(using: transitionContext),
                        delay: 0.0,
@@ -83,10 +91,16 @@ class SheetAnimator: NSObject {
                         
                         toVC.view.transform = .identity
                         
-                        if self.sheetType == .normal {
-                            fromVC.view.transform = SheetAnimator.animationScale
-                            self.dimView.alpha = SheetAnimator.animationAlpha
-                            self.dimView.frame.size.height = 0
+                        switch self.sheetStyle {
+                        case .original:
+                            if DeviceInfo.isPhone {
+                                fromVC.view.transform = SheetAnimator.animationScale
+                                fromVC.view.layer.cornerRadius = SheetAnimator.animationCornerRadius
+                            }
+                            self.dimmedView.alpha = SheetAnimator.animationAlpha
+                        case .onlyDim:
+                            self.dimmedView.alpha = SheetAnimator.animationAlpha
+                        default: break
                         }
         }) { (success) in
             transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
@@ -101,8 +115,6 @@ class SheetAnimator: NSObject {
                 return
         }
         
-        let isExistToView = transitionContext.view(forKey: .to) != nil
-        
         let container = transitionContext.containerView
         let screenOffDown = CGAffineTransform(translationX: 0, y: container.frame.height)
         
@@ -115,32 +127,40 @@ class SheetAnimator: NSObject {
                         
                         fromVC.view.transform = screenOffDown
                         
-                        if self.sheetType == .normal {
-                            toVC.view.transform = .identity
-                            self.dimView.alpha = 0.0
-                            self.dimView.frame.size.height = container.frame.height
+                        switch self.sheetStyle {
+                        case .original:
+                            if DeviceInfo.isPhone {
+                                toVC.view.transform = .identity
+                                toVC.view.layer.cornerRadius = DeviceInfo.cornerRadius
+                            }
+                            self.dimmedView.alpha = 0.0
+                        case .onlyDim:
+                            self.dimmedView.alpha = 0.0
+                        default: break
                         }
         }) { (success) in
             fromVC.view.transform = .identity
-            self.backgroundWhiteView.removeFromSuperview()
-            self.dimView.removeFromSuperview()
+            self.dimmedView.removeFromSuperview()
             
             transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
-            
-            if !isExistToView {
-                UIApplication.shared.keyWindowForActiveScene?.addSubview(toVC.view)
-            }
-            
             self.transitioningObserver.send(.complete)
+            
+            if !transitionContext.transitionWasCancelled,
+                transitionContext.view(forKey: .to) == nil {
+                UIApplication.shared.keyWindow?.addSubview(toVC.view)
+            }
         }
     }
 }
 
 extension SheetAnimator: UIViewControllerAnimatedTransitioning {
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-        return self.isPresenting
-            ? animateCoverUpTransition(using: transitionContext)
-            : animateDiscoverDownTransition(using: transitionContext)
+        if self.isPresenting {
+            prepareForCoverUp(using: transitionContext)
+            animateCoverUpTransition(using: transitionContext)
+        } else {
+            animateDiscoverDownTransition(using: transitionContext)
+        }
     }
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {

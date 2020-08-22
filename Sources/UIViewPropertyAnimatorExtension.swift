@@ -1,8 +1,7 @@
 //
 //  UIViewPropertyAnimatorExtension.swift
-//  EazelIOS
 //
-//  Created by eazel5 (Munok) on 2020/07/22.
+//  Created by eazel5 Munok Kim on 2020/07/22.
 //  Copyright © 2020 eazel. All rights reserved.
 //
 //  https://medium.com/@mshcheglov/delightful-interactive-animations-7a7823019c12

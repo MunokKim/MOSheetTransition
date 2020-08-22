@@ -8,6 +8,7 @@
 
 import UIKit
 import MOSheetTransition
+import Combine
 
 class ViewController2: UIViewController {
     
@@ -16,11 +17,17 @@ class ViewController2: UIViewController {
     }
     
     lazy var transitionController: SheetTransitionController = SheetTransitionController(for: self)
+    
+    private var cancellables = Set<AnyCancellable>()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        transitionController.transitioningState
+            .sink { (state) in
+                print(state)
+        }
+            .store(in: &cancellables)
     }
     
 
