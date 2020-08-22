@@ -14,7 +14,7 @@ By using `UIViewControllerInteractiveTransitioning` and `UIViewPropertyAnimator`
 
 ## Article
 
-[iOS 기본 pageSheet 스타일의 전환 및 인터렉션 만들기](https://medium.com/@shoveler)
+[iOS 기본 pageSheet 스타일의 전환 및 인터렉션 만들기](https://medium.com/@shoveler/ios-%EA%B8%B0%EB%B3%B8-pagesheet-%EC%8A%A4%ED%83%80%EC%9D%BC%EC%9D%98-%EC%A0%84%ED%99%98-%EB%B0%8F-%EC%9D%B8%ED%84%B0%EB%A0%89%EC%85%98-%EB%A7%8C%EB%93%A4%EA%B8%B0-8f7607d211ef?source=friends_link&sk=77d55b62906280889b549d28be464806)
 
 ## Usage
 
